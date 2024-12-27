@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="gitty.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="first-p"><b>TEE'S MINI RESTAURANT..</b></p>
+    <p><i>at ur beck and call....</i></p>
+    <br>
+    <div class="container">
+        <div class="header">What's Your Order??</div>
+        <div class="sidebar"><b>SNACKS</b>
+          <select name="menu" id="s-menu">
+            <option value="" disabled selected>Choose...</option>
+            <option value="Burger  -- $2.99" id="tea">Burger</option>
+            <option value="Bread  -- $2.99">Bread</option>
+            <option value="Soft-drinks  -- $2.99">Soft Drinks</option>
+            <option value="Biscuits-and-sweets  -- $2.99">Biscuits and Sweets</option>
+            </select>
+        </div> 
+        <div class="content">
+          <div class="card"><b>BEVERAGES</b><!--increase font size later-->
+            <select class="menu" id="b-menu">
+             <option value="" disabled selected>Choose...</option>
+            <option value="Tea  -- $2.99" id="tea">Tea --> <span class="price">$2.99</span></option>
+            <option value="Coffee  -- $2.99">Coffee --> <span class="price">$2.99</span></option>
+            <option value="Juices  -- $2.99">Juices  --> <span class="price">$2.99</span></option>
+            <option value="Smoothies  -- $2.99">Smoothies  --> <span class="price">$2.99</span></option>
+            </select>
+          </div>
+          <div class="card"><b>MAIN COURSE</b>
+            <select class="menu" id="mm-menu">
+              <option value="" disabled selected>Choose...</option>
+              <option value="Pasta  -- $2.99" id="tea">Pasta --> <span class="price">$2.99</span></option>
+              <option value="Grilled-chicken -- $2.99">Grilled Chicken --> <span class="price">$2.99</span></option>
+              <option value="Rice -- $2.99">Rice  --> <span class="price">$2.99</span></option>
+              <option value="Salad sauce/Steak -- $2.99">Salad sauce/Steak  --> <span class="price">$2.99</span></option>
+              </select>
+        </div>
+         <div  class="card"><b>DESSERTS</b>
+          <select class="menu" id="d-menu">
+            <option value="" disabled selected>Choose...</option>
+            <option value="Icecream -- $2.99" id="tea">Ice cream --> <span class="price">$2.99</span></option>
+            <option value="Pizza -- $2.99">Pizza --> <span class="price">$2.99</span></option>
+            <option value="Pudding -- $2.94">Pudding  --> <span class="price">$2.94</span></option>
+            <option value="Cakes -- $2.99">Cakes  --> <span class="price">$2.99</span></option>
+            </select>
+
+        </div>
+      </div>
+      <br>
+      <div>
+        <div class="last"><button id="atcbtn">ADD TO CART</button></div>
+      </div>
+      
+     <div id="customAlert" style="display: none;">
+      <div class="alert-Box">
+        <p id="alertMessage">Order has been added to Cart Successfully!!</p>
+        <button id="closeAlert">OKAY</button>
+      </div>
+     </div> 
+     <br>
+  <div class="btns">  
+<button class="button" id="viewOrderList"><b>CART</b></button>
+<button class="button" id="pictures"><b>OUR VARIETY..</b></button>
+<button class="button" id="news"><b>FEEDBACK</b></button>
+  </div>
+
+
+<footer class="footerdec">
+  <div class="footerNav">
+  <p>&copy; 2024 TEE'S MINI RESTAURANT. All rights reserved.</p>
+  <a href="about">About Us</a>
+  <a href="contact">Contact Us</a>
+  <a href="terms and concitions">Terms and Conditions</a>
+  <p>EMAIL: templechinedum64@gmal.com</p>
+  <p>HOTLINE: 09023713854</p>
+  </div>
+<div class="footerSocial">
+  <a href="https://facebook.com/QUEEN TEE" target="_blank">Facebook</a>
+  <a href="https://twitter.com/Temple D'coder" target="_blank">Twitter</a>
+  </div>
+</footer>
+ <script src="gitty.js"></script>
+ 
+</body>
+</html>
+
