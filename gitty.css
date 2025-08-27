@@ -166,6 +166,9 @@
    width: 150px;
    height: 50px;
 }
+#viewOrderList:hover {
+  color: white;
+}
 #pictures {
   color: orange;
   border: 10px;
@@ -180,6 +183,9 @@
    width: 150px;
    height: 50px;
 }
+#pictures:hover{
+  color: white;
+}
 #news{
   color: orange;
   border: 10px;
@@ -193,6 +199,9 @@
   transition: background-color 0.3s ease;
   width: 150px;
   height: 50px;
+}
+#news:hover{
+  color: white;
 }
 
 #fest {
